@@ -1,6 +1,6 @@
 package com.reglus.academy.service;
 
-import com.reglus.academy.exception.*;
+import com.reglus.academy.exceptions.*;
 import com.reglus.academy.model.Usuario;
 import com.reglus.academy.repository.UsuarioRepositorio;
 import org.junit.jupiter.api.DisplayName;
@@ -15,7 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.mockito.Mockito.*;
-import com.reglus.academy.exception.EmailInvalidoException;
+import com.reglus.academy.exceptions.EmailInvalidoException;
 
 public class UsuarioServiceTest {
 

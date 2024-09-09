@@ -1,4 +1,4 @@
-package com.reglus.academy.exception;
+package com.reglus.academy.exceptions;
 
 public class EmailInvalidoException extends RuntimeException {
     public EmailInvalidoException(String message) {

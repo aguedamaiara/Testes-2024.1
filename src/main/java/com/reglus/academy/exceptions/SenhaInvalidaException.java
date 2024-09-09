@@ -1,4 +1,4 @@
-package com.reglus.academy.exception;
+package com.reglus.academy.exceptions;
 
 public class SenhaInvalidaException extends RuntimeException {
     public SenhaInvalidaException(String message) {
